@@ -1,0 +1,5 @@
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+export const { PORT, DB_URI, DEV_MODE, JWT_SECRET, JWT_EXPIRE, EMAIL_SERVICE, SENDGRID_USERNAME, SENDGRID_PASSWORD, EMAIL_FROM, CLIENT_ID, CLIENT_SECRET, CALLBACK_URL } = process.env;
